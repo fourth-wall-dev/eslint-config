@@ -1,42 +1,42 @@
 {
-    "env": {
-        "browser": true,
-        "es2020": true,
-        "node": true
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    "extends": [
-        "plugin:react/recommended",
-        "airbnb",
-        "plugin:jsx-a11y/recommended",
-        "prettier",
-        "prettier/react",
-        "plugin:prettier/recommended"
-    ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 11,
-        "sourceType": "module"
-    },
-    "plugins": ["react", "jsx-a11y", "prettier"],
-    "rules": {
-        "react/react-in-jsx-scope": "off",
-        "react/jsx-props-no-spreading": "off",
-        "import/prefer-default-export": "off",
-        "react/prop-types": "off",
-        "quotes": ["error", "double"],
-        "no-unused-vars": "warn",
-        "react/jsx-filename-extension": "off",
-        "camelcase": "off",
-        "dot-notation": "off",
-        "no-param-reassign": ["error", { "props": false }]
-    },
-    "settings": {
-        "import/resolver": {
-            "node": {
-                "paths": ["src"]
-            }
-        }
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jsx-a11y", "prettier"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off",
+    "quotes": ["error", "double"],
+    "no-unused-vars": "warn",
+    "react/jsx-filename-extension": "off",
+    "camelcase": "off",
+    "dot-notation": "off",
+    "no-param-reassign": ["error", { "props": false }]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
     }
+  }
 }
