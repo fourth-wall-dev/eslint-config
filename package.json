@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Alloc8 Eslint and Prettier config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Mcgarry <anthony.mcgarry@fourthwallcreative.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.2.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1"
+  }
+}
