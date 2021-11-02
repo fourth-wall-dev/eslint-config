@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fwc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alloc8 Eslint and Prettier config",
   "main": "index.js",
   "scripts": {
